@@ -20,11 +20,11 @@ class Artist
   end
 
   def self.reset_all
-    self.artist.clear
+    self.all.clear
   end
 
   def self.count
-    self.artist.count
+    self.all.count
   end
 
   def add_song(song)
