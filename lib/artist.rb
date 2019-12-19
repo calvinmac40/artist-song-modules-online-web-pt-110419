@@ -15,16 +15,16 @@ class Artist
     @@artists.detect{|a| a.name == name}
   end
 
-  def self.all
+  def self.artist
     @@artists
   end
 
   def self.reset_all
-    self.all.clear
+    self.artist.clear
   end
 
   def self.count
-    self.all.count
+    self.artist.count
   end
 
   def add_song(song)
